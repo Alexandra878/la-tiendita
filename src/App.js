@@ -1,9 +1,12 @@
+import NavBar from './components/NavBar'
+
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        
         </p>
         <a
           className="App-link"
@@ -14,6 +17,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <NavBar />
     </div>
   );
 }
