@@ -1,4 +1,4 @@
-import { Nav, Nav variant} from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
 const NavBar = () => {
     //Logic Develop
     return(
