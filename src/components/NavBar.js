@@ -2,6 +2,8 @@ import { Nav } from 'react-bootstrap';
 const NavBar = () => {
     //Logic Develop
     return(
+      <div>
+
    
   <Nav variant="pills" defaultActiveKey="/home">
   <Nav.Item>
@@ -17,6 +19,9 @@ const NavBar = () => {
   </Nav.Item>
 </Nav>
 
+<CartWidget />
+
+</div>
 )
 }
 
