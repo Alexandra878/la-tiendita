@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <NavBar />
         <ItemListContainer greetin = "Hola soy un mensaje desde App"/>
-        <ItemListContainer greetin = "Hola soy un segundo mensaje desde App"/>  
     </div>
   );
 }

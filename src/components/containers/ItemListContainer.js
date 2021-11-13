@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react"
+import ItemCount from "./ItemCount"
+
 
 const ItemListContainer = ({greeting}) => {
-
-
-    const [users, setUsers] = useState([])
+      const [users, setUsers] = useState([])
     console.log(users)
 
     const getUsers = async() =>{
